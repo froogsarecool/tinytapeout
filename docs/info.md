@@ -9,11 +9,32 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+NOT gates are connected to input a and b respectively.
+OR gate is connected to inputs c and d.
+XNOR gate is connected to inputs e and f.
+XOR gate is connected to inputs g and h.
 
 ## How to test
 
-Explain how to use your project
+Set the inputs and check the outputs match with the expected sequence results.
+
+Test case 1: 
+Set all inputs to 0 except for a and b.
+Output XNOR = 1.
+All other outputs are 0.
+
+Test case 2:
+Set inputs c and e = 0.
+Set all other inputs to 1.
+Output XNOR = 1.
+Output OR = 1.
+
+Test case 3:
+Set inputs a, c, e, and g = 0.
+Set all other inputs to 1.
+First output NOT = 1.
+Second output NOT = 0.
+Output XOR = 1.
 
 ## External hardware
 
